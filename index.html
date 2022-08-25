@@ -11,9 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<title>Homepage</title>
+		<style>img{ vertical-align: middle;}</style>
 	</head>
-	<style>img{ vertical-align: middle;}</style>
-
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -24,8 +23,8 @@
 						<h1><a href="index.html">Home</a></h1>
 						<nav class="links">
 							<ul>
-								<li><a href="#">Codes</a></li>
-								<li><a href="#">cv</a></li>
+								<li><a href="#education">Education</a></li>
+								<li><a href="#nnl">Research</a></li>
 						<!--	<li><a href="#">Feugiat</a></li>
 								<li><a href="#">Tempus</a></li>
 								<li><a href="#">Adipiscing</a></li>-->
@@ -61,14 +60,14 @@
 								<ul class="links">
 									<li>
 										<h3>Codes</h3>
-										<a href="#">
-											<p>Gait Recognition</p>
-										</a>
+											<a href="#nnl">Noisy label learning</a>
+											<a href="#vln">Vision language navigation</a>
+											<a href="#tf">Traffic forecasting</a>
+										
 									</li>
 									<li>
-										<a href="#">
-											<h3>cv</h3>
-											<p>To be Continued</p>
+										<a href="#education">
+											<h3>Education</h3>
 										</a>
 									</li>
 								</ul>
@@ -91,11 +90,11 @@
 								<header>
 									<div class="title">
 										<h2>About Me</a></h2>
-										<p> I am actively looking for a PhD position for 2023 fall!  &#128515; </p>
+										<p style="font-size:18px"> I am actively looking for a PhD position for 2023 fall!  &#128515; </p>
 									</div>
 								</header>
 							<!--<a href="single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a>-->
-								<p>I'm currently a master student at  Institute of Automation, Chinese Academy of Sciences, working with <a href='https://scholar.google.com/citations?user=8kzzUboAAAAJ&hl=zh-CN'> Prof. Liang Wang</a> and <a href='https://yanrockhuang.github.io/'> Prof. Yan Huang</a>.
+								<p>I'm currently a master student at  Institute of Automation, Chinese Academy of Sciences, working with <a href='https://scholar.google.com/citations?user=8kzzUboAAAAJ&hl=zh-CN'> Prof. Liang Wang</a> and <a href='https://yanrockhuang.github.io/'> Prof. Yan Huang</a>. 
 								<br \>Before this, I recieved my bachelor's degree from <a href="https://english.ucas.ac.cn/">University of Chinese Academy of Sciences (UCAS)</a>.</p>
 								<p>If you are also interested in noisy labels learning, I am happy to have collaboration opportunities.</p>
 								<!--<footer>
@@ -111,7 +110,7 @@
 							</article>
 							<article class="post">
 								<header>
-									<div class="title">
+									<div class="title" id="nnl">
 										<h2>Noisy Labels Learning</h2>
 										
 									</div>
@@ -124,20 +123,21 @@
 										<img src="images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
-								<div>
-								<img src="images/ijcai_challenge.png" width="80" height="80"/>1st Learning and Mining with Noisy Labels Challenge, IJCAI-ECAI 2022.
 								
-								<p>Our team (<b>Weichen Yu</b>, Hongyuan Yu, Yan Huang, Dong An,
+								<img src="images/ijcai_challenge.png" width="80" height="80"/>
+								<p>1st Learning and Mining with Noisy Labels Challenge, IJCAI-ECAI 2022.Our team (<b>Weichen Yu</b>, Hongyuan Yu, Yan Huang, Dong An,
 									Keji He, Zhipeng Zhang, Xiuchuan Li, Liang Wang) is the <font color="#FF0000">runner-up</font> of task 1-1 and <font color="#FF0000">2nd runner-up</font> of task 1-2. <a href="http://ucsc-real.soe.ucsc.edu:1995/Competition.html"> Details.</a>
 								</p>
-
-								<img src="images/intro_mm.jpg" width="100%"/>
-								<p> <b>Weichen Yu</b>, Hongyuan Yu, Yan Huang, Liang Wang. Generalized Inter-class Loss for Gait Recognition. ACMMM 2022 (Poster).</p>
-
-								<img src="images\co-teaching.png" width="100%"/>
-								<p> <b>Weichen Yu</b>, Hongyuan Yu, Yan Huang, Chunshui Cao, Liang Wang. CNTN: Cyclic Noise-Tolerant Network. (under review)</p>
-							    </div>
-
+								
+								<img src="images/intro_mm.jpg" width="40%"  style="position:left; text-align:right;"/>
+								<p><b>Weichen Yu</b>, Hongyuan Yu, Yan Huang, Liang Wang. Generalized Inter-class Loss for Gait Recognition. ACMMM 2022 (Poster).</p>
+								
+								
+								<img src="images\co-teaching.png" width="40%"/> 
+								<p><b>Weichen Yu</b>, Hongyuan Yu, Yan Huang, Chunshui Cao, Liang Wang. CNTN: Cyclic Noise-Tolerant Network. (under review)</p>
+								
+								
+								
 
 
 
@@ -150,7 +150,7 @@
 							</article>
 							<article class="post">
 								<header>
-									<div class="title">
+									<div class="title" id="vln">
 										<h2>Vision Language Navigation</h2>
 										
 									</div>
@@ -165,9 +165,9 @@
 								</header>
 								<!--<a href="single.html" class="image featured"><img src="images/pic02.jpg" alt="" /></a>-->
 								
-								<img src="images/csig.png" width="80" height="80"/>
+								<img src="images/csig.png" width="80" height="80" style="position:left; text-align:right;"/> REVERIE Challenge 2022.
 
-								<p> REVERIE Challenge 2022. Our team (Dong An, Yifeng Su, Shuanglin Sima, Hongyuan Yu, <b>Weichen Yu</b>, Yan Huang) is the <font color="#FF0000">runner-up</font> of channel 2. See details here: <a href="https://yuankaiqi.github.io/REVERIE_Challenge/challenge_2022.html"> Details</a>.
+								<p>Our team (Dong An, Yifeng Su, Shuanglin Sima, Hongyuan Yu, <b>Weichen Yu</b>, Yan Huang) is the <font color="#FF0000">runner-up</font> of channel 2. <a href="https://yuankaiqi.github.io/REVERIE_Challenge/challenge_2022.html"> Details</a>.
 								</p>
 								
 							
@@ -177,7 +177,7 @@
 						<!-- Post -->
 							<article class="post">
 								<header>
-									<div class="title">
+									<div class="title" id="tf">
 										<h2>Traffic Forecasting</h2>
 										
 									</div>
@@ -218,7 +218,7 @@
 
 
 						<!-- Post -->
-							<article class="post">
+							<article class="post" id="education">
 								<header>
 									<div class="title">
 										<h2>Education</h2>
